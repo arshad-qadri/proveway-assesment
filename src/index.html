@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex justify-center items-start min-h-screen bg-white">
+      <div class="lg:w-3/5 md:w-10/12 w-full py-10 px-4 lg:px-0">
+        <div class="border border-[#C8C8C8] relative">
+          <h1
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white md:text-3xl lg:text-4xl sm:text-2xl text-lg font-bold lg:px-5 px-2 text-[#FF6B82]"
+          >
+            YAY! It's BOGO
+          </h1>
+        </div>
+        <!-- 1st box -->
+        <div class="border-[1.5px] border-[#C8C8C8] mt-16 px-6 py-6" id="box1">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center justify-center gap-x-6">
+              <input
+              type="radio"
+              name="box"
+              class="scale-150 cursor-pointer accent-[#FF6B82]"
+              id="radio1"
+            />
+              <div>
+                <div class="flex items-center gap-x-2">
+                  <h2 class="lg:text-3xl text-xl font-semibold">1 Unit</h2>
+                  <div class="bg-[#FF6B82] px-2 text-white text-xl">
+                    10% Off
+                  </div>
+                </div>
+                <p class="text-xl">Standard Price</p>
+              </div>
+            </div>
+            <div>
+              <div class="lg:text-3xl text-xl font-semibold">$10.00 USD</div>
+              <div class="text-[#C8C8C8] line-through">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="hidden grid-cols-3 pl-7 mt-2" id="size_color1">
+            <div>
+              <h3 class="pl-7">Size</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <h3>Color</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd box -->
+        <div
+          class="border-[1.5px] border-[#C8C8C8] mt-8 px-6 py-6 relative"
+          id="box2"
+        >
+          <div
+            class="absolute uppercase h-9 -top-1 -translate-y-1/3 right-2 bg-[#FF6B82] px-2 py-1 font-semibold text-white rounded-md"
+          >
+            Most popular
+          </div>
+
+          <div class="flex justify-between items-center">
+            <div class="flex items-center justify-center gap-x-6">
+              <input
+                type="radio"
+                name="box"
+                class="scale-150 cursor-pointer accent-[#FF6B82]"
+                id="radio2"
+              />
+              <div>
+                <div class="flex items-center gap-x-2">
+                  <h2 class="lg:text-3xl text-xl font-semibold">2 Unit</h2>
+                  <div class="bg-[#FF6B82] px-2 text-white text-xl">
+                    20% Off
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="lg:text-3xl text-xl font-semibold">$18.00 USD</div>
+              <div class="text-[#C8C8C8] line-through">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="hidden grid-cols-3 pl-7 mt-2" id="size_color2">
+            <div>
+              <h3 class="pl-7">Size</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <h3>Color</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd box -->
+        <div class="border-[1.5px] border-[#C8C8C8] mt-8 px-6 py-6" id="box3">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center justify-center gap-x-6">
+              <input
+                type="radio"
+                name="box"
+                class="scale-150 cursor-pointer accent-[#FF6B82]"
+                id="radio3"
+              />
+              <div>
+                <div class="flex items-center gap-x-2">
+                  <h2 class="lg:text-3xl text-xl font-semibold">3 Unit</h2>
+                  <div class="bg-[#FF6B82] px-2 text-white text-xl">
+                    30% Off
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="lg:text-3xl text-xl font-semibold">$24.00 USD</div>
+              <div class="text-[#C8C8C8] line-through">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="hidden grid-cols-3 pl-7 mt-2" id="size_color3">
+            <div>
+              <h3 class="pl-7">Size</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <h3>Color</h3>
+              <span class="mt-2">#1</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+              <br />
+              <span class="mt-2">#2</span>
+              <select
+                class="border-[1.5px] border-[#C8C8C8] ml-2 w-24 mt-2 py-[6px] rounded-[4px] px-1 outline-none"
+              >
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center my-4">
+          <h5 class="text-xl text-[#FF6B82] font-semibold">Free Delivery</h5>
+          <div class="text-xl text-black font-semibold" id="price"></div>
+        </div>
+        <button
+          class="w-full bg-[#FF6B82] text-white text-xl py-3 rounded-md mt-4"
+        >
+          <span class="text-2xl font-bold mx-3">+</span> Add to cart
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
